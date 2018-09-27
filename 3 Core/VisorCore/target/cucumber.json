@@ -1,0 +1,660 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Registrar Categoria",
+        "description": "",
+        "id": "mantenimiento-de-categoria;registrar-categoria",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 310806131,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "despues de iniciar sesion en la aplicacion",
+            "match": {
+              "location": "CategoriaIntegrationTest.despues_de_iniciar_sesion_en_la_aplicacion()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 118870,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "hago clic en el enlace de Matenimiento de Categoria",
+            "match": {
+              "location": "CategoriaIntegrationTest.hago_clic_en_el_enlace_de_Matenimiento_de_Categoria()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 321744,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "luego hago clic en el boton de Nuevo",
+            "match": {
+              "location": "CategoriaIntegrationTest.luego_hago_clic_en_el_boton_de_Nuevo()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4343225,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "en la nueva pantalla escribo en el campo Nombre el valor de \"Chocolates\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Chocolates",
+                  "offset": 61
+                }
+              ],
+              "location": "CategoriaIntegrationTest.en_la_nueva_pantalla_escribo_en_el_campo_Nombre_el_valor_de(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 567192932,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "presiono el boton de Guardar",
+            "match": {
+              "location": "CategoriaIntegrationTest.presiono_el_boton_de_Guardar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 91536,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "el sistema me mostrara el mensaje de \"Se guardo correctamente la Categoria\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Se guardo correctamente la Categoria",
+                  "offset": 38
+                }
+              ],
+              "location": "CategoriaIntegrationTest.el_sistema_me_mostrara_el_mensaje_de(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Actualizar Categoria",
+        "description": "",
+        "id": "mantenimiento-de-categoria;actualizar-categoria",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 459817,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "despues de iniciar sesion en la aplicacion",
+            "match": {
+              "location": "CategoriaIntegrationTest.despues_de_iniciar_sesion_en_la_aplicacion()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3931824,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "hago clic en el enlace de Matenimiento de Categoria",
+            "match": {
+              "location": "CategoriaIntegrationTest.hago_clic_en_el_enlace_de_Matenimiento_de_Categoria()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 17651677,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "busco la categoria \"Chocolates\" para seleccionarla de la tabla de Categorias",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Chocolates",
+                  "offset": 20
+                }
+              ],
+              "location": "CategoriaIntegrationTest.busco_la_categoria_para_seleccionarla_de_la_tabla_de_Categorias(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 109796,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "hago clic en el boton de Editar",
+            "match": {
+              "location": "CategoriaIntegrationTest.hago_clic_en_el_boton_de_Editar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 64491,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "en la nueva pantalla escribo el nombre de \"Lacteos\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Lacteos",
+                  "offset": 43
+                }
+              ],
+              "location": "CategoriaIntegrationTest.en_la_nueva_pantalla_escribo_el_nombre_de(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15805312,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "presiono el boton de Actualizar",
+            "match": {
+              "location": "CategoriaIntegrationTest.presiono_el_boton_de_Actualizar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 56650,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "el sistema me mostrara el mensaje de \"Se actualizo correctamente la Categoria\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Se actualizo correctamente la Categoria",
+                  "offset": 38
+                }
+              ],
+              "location": "CategoriaIntegrationTest.el_sistema_me_mostrara_el_mensaje_de(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Mantenimiento de Categoria",
+    "description": "Como Jefe de Almacen necesito realizar la gestion de Categorias",
+    "id": "mantenimiento-de-categoria",
+    "keyword": "Feature",
+    "uri": "Categoria.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Registrar Producto",
+        "description": "",
+        "id": "mantenimiento-de-producto;registrar-producto",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 397049,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "despues de iniciar sesion en la aplicacion",
+            "match": {
+              "location": "CategoriaIntegrationTest.despues_de_iniciar_sesion_en_la_aplicacion()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4123118,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "hago clic en el enlace de Mantenimiento de Producto",
+            "match": {
+              "location": "ProductoIntegrationTest.hago_clic_en_el_enlace_de_Mantenimiento_de_Producto()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 113203,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "luego hago clic en el boton de NuevoProducto",
+            "match": {
+              "location": "ProductoIntegrationTest.luego_hago_clic_en_el_boton_de_NuevoProducto()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 79129,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "en la nueva pantalla escribo en el campo NombreProducto el valor de \"Coca Cola\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Coca Cola",
+                  "offset": 69
+                }
+              ],
+              "location": "ProductoIntegrationTest.en_la_nueva_pantalla_escribo_en_el_campo_NombreProducto_el_valor_de(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7285669,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "en la nueva pantalla selecciono del combobox CategoriaProducto el valor de \"Bebidas Gasificadas\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bebidas Gasificadas",
+                  "offset": 76
+                }
+              ],
+              "location": "ProductoIntegrationTest.en_la_nueva_pantalla_selecciono_del_combobox_CategoriaProducto_el_valor_de(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15092262,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "en la nueva pantalla selecciono del combobox ProveedorProducto el valor de \"Coca-Cola Company\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Coca-Cola Company",
+                  "offset": 76
+                }
+              ],
+              "location": "ProductoIntegrationTest.en_la_nueva_pantalla_selecciono_del_combobox_ProveedorProducto_el_valor_de(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 84859,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "en la nueva pantalla selecciono el radiobutton NacionalidadProducto el valor de \"Importado\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Importado",
+                  "offset": 81
+                }
+              ],
+              "location": "ProductoIntegrationTest.en_la_nueva_pantalla_selecciono_el_radiobutton_NacionalidadProducto_el_valor_de(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33194,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "en la nueva pantalla selecciono el checkbox GarantiaProducto y lo dejo en blanco",
+            "match": {
+              "location": "ProductoIntegrationTest.en_la_nueva_pantalla_selecciono_el_checkbox_GarantiaProducto_y_lo_dejo_en_blanco()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14918523,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "presiono el boton de GuardarProducto",
+            "match": {
+              "location": "ProductoIntegrationTest.presiono_el_boton_de_GuardarProducto()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 72869,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "el sistema me mostrara \"Se guardo correctamente el producto\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Se guardo correctamente el producto",
+                  "offset": 24
+                }
+              ],
+              "location": "ProductoIntegrationTest.el_sistema_me_mostrara(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Actualizar Producto",
+        "description": "",
+        "id": "mantenimiento-de-producto;actualizar-producto",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 287035,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "despues de iniciar sesion en la aplicacion",
+            "match": {
+              "location": "CategoriaIntegrationTest.despues_de_iniciar_sesion_en_la_aplicacion()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 840581,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "hago clic en el enlace de Mantenimiento de Producto",
+            "match": {
+              "location": "ProductoIntegrationTest.hago_clic_en_el_enlace_de_Mantenimiento_de_Producto()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14264357,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "busco el producto \"Fanta\" para seleccionarlo de la tabla de Productos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Fanta",
+                  "offset": 19
+                }
+              ],
+              "location": "ProductoIntegrationTest.busco_el_producto_para_seleccionarlo_de_la_tabla_de_Productos(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 127830,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "hago clic en el boton de EditarProducto",
+            "match": {
+              "location": "ProductoIntegrationTest.hago_clic_en_el_boton_de_EditarProducto()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4003840,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "en la nueva pantalla escribo el nombreProducto de \"Glacitas\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Glacitas",
+                  "offset": 51
+                }
+              ],
+              "location": "ProductoIntegrationTest.en_la_nueva_pantalla_escribo_el_nombreProducto_de(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11215794,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "en la nueva pantalla selecciono del combobox CategoriaProducto el valor de \"Galleta\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Galleta",
+                  "offset": 76
+                }
+              ],
+              "location": "ProductoIntegrationTest.en_la_nueva_pantalla_selecciono_del_combobox_CategoriaProducto_el_valor_de(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7878701,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "en la nueva pantalla selecciono del combobox ProveedorProducto el valor de \"Alicorp\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Alicorp",
+                  "offset": 76
+                }
+              ],
+              "location": "ProductoIntegrationTest.en_la_nueva_pantalla_selecciono_del_combobox_ProveedorProducto_el_valor_de(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 54758,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "en la nueva pantalla selecciono el radiobutton NacionalidadProducto el valor de \"Nacional\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Nacional",
+                  "offset": 81
+                }
+              ],
+              "location": "ProductoIntegrationTest.en_la_nueva_pantalla_selecciono_el_radiobutton_NacionalidadProducto_el_valor_de(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19939,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "en la nueva pantalla selecciono el checkbox GarantiaProducto y lo dejo en blanco",
+            "match": {
+              "location": "ProductoIntegrationTest.en_la_nueva_pantalla_selecciono_el_checkbox_GarantiaProducto_y_lo_dejo_en_blanco()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8982689,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "presiono el boton de ActualizarProducto",
+            "match": {
+              "location": "ProductoIntegrationTest.presiono_el_boton_de_ActualizarProducto()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 479642,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "el sistema me mostrara \"Se actualizo correctamente el Producto\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Se actualizo correctamente el Producto",
+                  "offset": 24
+                }
+              ],
+              "location": "ProductoIntegrationTest.el_sistema_me_mostrara(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 29,
+        "name": "Eliminar Producto",
+        "description": "",
+        "id": "mantenimiento-de-producto;eliminar-producto",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 403266,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "despues de iniciar sesion en la aplicacion",
+            "match": {
+              "location": "CategoriaIntegrationTest.despues_de_iniciar_sesion_en_la_aplicacion()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 442660,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "hago clic en el enlace de Mantenimiento de Producto",
+            "match": {
+              "location": "ProductoIntegrationTest.hago_clic_en_el_enlace_de_Mantenimiento_de_Producto()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 18539481,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "busco el producto \"Oreo\" para seleccionarlo de la tabla de Productos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Oreo",
+                  "offset": 19
+                }
+              ],
+              "location": "ProductoIntegrationTest.busco_el_producto_para_seleccionarlo_de_la_tabla_de_Productos(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 101902,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "hago clic en el boton de EliminarProducto",
+            "match": {
+              "location": "ProductoIntegrationTest.hago_clic_en_el_boton_de_EliminarProducto()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11133945,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "en la ventana de confirmacion hago click en Confirmar",
+            "match": {
+              "location": "ProductoIntegrationTest.en_la_ventana_de_confirmacion_hago_click_en_Confirmar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 61572,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "el sistema me mostrara \"Se elimino correctamente el Producto\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Se elimino correctamente el Producto",
+                  "offset": 24
+                }
+              ],
+              "location": "ProductoIntegrationTest.el_sistema_me_mostrara(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Mantenimiento de Producto",
+    "description": "Como Jefe de Almacen necesito realizar la gestion de Productos",
+    "id": "mantenimiento-de-producto",
+    "keyword": "Feature",
+    "uri": "Producto.feature"
+  }
+]

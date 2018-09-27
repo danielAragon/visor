@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="1.041992">
+<testcase classname="Mantenimiento de Categoria" name="Registrar Categoria" time="0.882874">
+<system-out><![CDATA[Given despues de iniciar sesion en la aplicacion............................passed
+When hago clic en el enlace de Matenimiento de Categoria....................passed
+And luego hago clic en el boton de Nuevo....................................passed
+And en la nueva pantalla escribo en el campo Nombre el valor de "Chocolates".passed
+And presiono el boton de Guardar............................................passed
+Then el sistema me mostrara el mensaje de "Se guardo correctamente la Categoria".passed
+]]></system-out>
+</testcase>
+<testcase classname="Mantenimiento de Categoria" name="Actualizar Categoria" time="0.03808">
+<system-out><![CDATA[Given despues de iniciar sesion en la aplicacion............................passed
+When hago clic en el enlace de Matenimiento de Categoria....................passed
+And busco la categoria "Chocolates" para seleccionarla de la tabla de Categorias.passed
+And hago clic en el boton de Editar.........................................passed
+And en la nueva pantalla escribo el nombre de "Lacteos".....................passed
+And presiono el boton de Actualizar.........................................passed
+Then el sistema me mostrara el mensaje de "Se actualizo correctamente la Categoria".passed
+]]></system-out>
+</testcase>
+<testcase classname="Mantenimiento de Producto" name="Registrar Producto" time="0.0422">
+<system-out><![CDATA[Given despues de iniciar sesion en la aplicacion............................passed
+When hago clic en el enlace de Mantenimiento de Producto....................passed
+And luego hago clic en el boton de NuevoProducto............................passed
+And en la nueva pantalla escribo en el campo NombreProducto el valor de "Coca Cola".passed
+And en la nueva pantalla selecciono del combobox CategoriaProducto el valor de "Bebidas Gasificadas".passed
+And en la nueva pantalla selecciono del combobox ProveedorProducto el valor de "Coca-Cola Company".passed
+And en la nueva pantalla selecciono el radiobutton NacionalidadProducto el valor de "Importado".passed
+And en la nueva pantalla selecciono el checkbox GarantiaProducto y lo dejo en blanco.passed
+And presiono el boton de GuardarProducto....................................passed
+Then el sistema me mostrara "Se guardo correctamente el producto"...........passed
+]]></system-out>
+</testcase>
+<testcase classname="Mantenimiento de Producto" name="Actualizar Producto" time="0.048155">
+<system-out><![CDATA[Given despues de iniciar sesion en la aplicacion............................passed
+When hago clic en el enlace de Mantenimiento de Producto....................passed
+And busco el producto "Fanta" para seleccionarlo de la tabla de Productos...passed
+And hago clic en el boton de EditarProducto.................................passed
+And en la nueva pantalla escribo el nombreProducto de "Glacitas"............passed
+And en la nueva pantalla selecciono del combobox CategoriaProducto el valor de "Galleta".passed
+And en la nueva pantalla selecciono del combobox ProveedorProducto el valor de "Alicorp".passed
+And en la nueva pantalla selecciono el radiobutton NacionalidadProducto el valor de "Nacional".passed
+And en la nueva pantalla selecciono el checkbox GarantiaProducto y lo dejo en blanco.passed
+And presiono el boton de ActualizarProducto.................................passed
+Then el sistema me mostrara "Se actualizo correctamente el Producto"........passed
+]]></system-out>
+</testcase>
+<testcase classname="Mantenimiento de Producto" name="Eliminar Producto" time="0.030683">
+<system-out><![CDATA[Given despues de iniciar sesion en la aplicacion............................passed
+When hago clic en el enlace de Mantenimiento de Producto....................passed
+And busco el producto "Oreo" para seleccionarlo de la tabla de Productos....passed
+And hago clic en el boton de EliminarProducto...............................passed
+And en la ventana de confirmacion hago click en Confirmar...................passed
+Then el sistema me mostrara "Se elimino correctamente el Producto"..........passed
+]]></system-out>
+</testcase>
+</testsuite>
